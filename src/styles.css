@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+
+div {
+    max-height: 200px;
+    max-width: 400px;
+    overflow:auto;
+}
+
+
+
+
+.click-btn{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid white;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 28px 50px 25px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin: 10px 0;
+}
+
+.click-btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+font-weight: 700;
+border: solid 2px #0066cc;
+}
+
+
+
+div p {
+    font-weight: 900;
+    display: inline-block;
+    min-width: 130px;
+    padding: 16px 10px;
+    margin: 5px auto;
+}
